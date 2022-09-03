@@ -1,10 +1,10 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
-import Experiencia from './pages/Experiencia';
-import Projetos from './pages/Projetos';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Projetos     from './pages/Projetos';
+import Experiencia  from './pages/Experiencia';
+import Navbar       from './components/Navbar';
+import Footer       from './components/Footer';
 
 function App() {
   return (
