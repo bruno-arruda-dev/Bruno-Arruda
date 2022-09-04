@@ -10,8 +10,9 @@ export default function Projetos() {
         <div className="projects">
             <h1>Meus Projetos</h1>
             <div className="projectList">
-                {ListaProjetos.map((project) => {
-                    return <ItemProjeto nome={project.nome} imagem={project.imagem} />
+                {/* O array "ListaProjetos" é chamado com a função "map", que percorrerá cada item do array e irá retornar as propriedades "nome" e "imagem". */}
+                {ListaProjetos.map((project, idx) => {
+                    return <ItemProjeto id={idx} nome={project.nome} imagem={project.imagem} />
                 })}
             </div>
         </div>
