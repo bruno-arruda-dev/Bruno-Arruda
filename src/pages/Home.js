@@ -30,19 +30,19 @@ export default function Home() {
                     <li className="item">
                         <h2>Front-End</h2>
                         <span>
-                            Minhas skills de Front-End aqui
+                            HTML, CSS e REACT.
                         </span>
                     </li>
                     <li className="item">
                         <h2>Back-End</h2>
                         <span>
-                            Minhas Skills de Back-End aqui
+                            Node.js.
                         </span>
                     </li>
                     <li className="item">
                         <h2>Linguagens</h2>
                         <span>
-                            As linguagens de programação que conheço aqui
+                            JavaScript.
                         </span>
                     </li>
                 </ol>
