@@ -3,17 +3,25 @@ import LinkedInIcon     from "@material-ui/icons/LinkedIn";
 import EmailIcon        from "@material-ui/icons/Email";
 import GithubIcon       from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
+import avatarPortfolio from "../components/assets/avatarPortfolio.png";
 
 export default function Home() {
     return (
         <div className="home">
             <div className="about">
+                <div className="avatarConteiner">
+                    <img id="avatar" src={avatarPortfolio}></img>
+                </div>
                 <h2>Olá, Meu Nome é Bruno</h2>
                 <div className="prompt">
                     <p>Um estudante de desenvolvimento apaixonado por aprender e criar.</p>
-                    <LinkedInIcon />
+                    <a href="https://www.linkedin.com/in/bruno-arruda-977637210/" target={"_blank"}>
+                        <LinkedInIcon />
+                    </a>
                     <EmailIcon />
-                    <GithubIcon />
+                    <a href="https://github.com/BrunoArrm" target="_blank">
+                        <GithubIcon />
+                    </a>
                 </div>
             </div>
             <div className="skills">
