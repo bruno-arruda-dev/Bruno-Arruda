@@ -13,44 +13,46 @@ function Experiencia() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2010 - 2014"
+          date="2020 - Atual"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            My Random High School, Random Place, Random State
+            Análise e Desenvolvimento de Sistemas.
           </h3>
-          <p> High School Diploma</p>
+          <h4>
+            Tecnólogo, Universidade Paulista, Goiás.
+          </h4>
+          <p> Cursando último período em Análise e Desenvolvimento de Sistemas.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2014 - 2018"
+          date="2021 - Atual"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            My Cool University, Vancouver, British Columbia
+            DevMedia.
           </h3>
-
           <h4 className="vertical-timeline-element-subtitle">
-            Bachelor's Degree
+            Carreira Full-Stack web.
           </h4>
 
-          <p> Computer Science</p>
+          <p>Estudando desenvolvimento web com as tecnologias mais requisitadas pelo mercado.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2018 - 2020"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+          date="2022 - Atual"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Back End Engineer - Google
+            Full-Stack Web.
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            Imã Learning Place, turma GODEV 2022, Goiânia-GO.
           </h4>
-          <p>Developed the backend infrastructure for 3 projects.</p>
+          <p>Curso ministrado ao vivo com professores, projetos e exercícios.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -60,14 +62,13 @@ function Experiencia() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Full Stack Engineer - Twitch
+            Técnico em Implantação de Sistemas.
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            Integra Engenharia de Sistemas, Goiânia-GO
           </h4>
           <p>
-            Helped the team launch 2 major features by working both in the front
-            end and back end.
+            Implanto sistemas ERP desenvolvidos na empresa Integra Engenharia em parceiros clientes, os treino-os nas ferramentas mais adequadas e ajudo a aprimorar seus processos internos.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

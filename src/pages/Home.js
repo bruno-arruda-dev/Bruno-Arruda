@@ -1,7 +1,7 @@
 import React from "react";
 import LinkedInIcon     from "@material-ui/icons/LinkedIn";
-import EmailIcon        from "@material-ui/icons/Email";
 import GithubIcon       from "@material-ui/icons/GitHub";
+import EmailIcon        from "@material-ui/icons/Email";
 import "../styles/Home.css";
 import avatarPortfolio from "../components/assets/avatarPortfolio.png";
 
@@ -36,7 +36,7 @@ export default function Home() {
                     <li className="item">
                         <h2>Back-End</h2>
                         <span>
-                            Node.js.
+                            Node.js, Firebird.
                         </span>
                     </li>
                     <li className="item">
