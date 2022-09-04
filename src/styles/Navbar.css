@@ -18,6 +18,13 @@
     text-decoration: none;
     margin: 20px;
     font-size: 25px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+  }
+
+  .navbar a:hover {
+    color: #e9d35b;
+    transform: translateY(-10px);
   }
   
   .toggleButton {

@@ -12,16 +12,16 @@ export default function Home() {
                 <div className="avatarConteiner">
                     <img id="avatar" src={avatarPortfolio}></img>
                 </div>
-                <h2>Olá, Meu Nome é Bruno</h2>
+                <h2>Olá, Meu Nome é Bruno Arruda</h2>
                 <div className="prompt">
                     <p>Um estudante de desenvolvimento apaixonado por aprender e criar.</p>
                     <a href="https://www.linkedin.com/in/bruno-arruda-977637210/" target={"_blank"}>
                         <LinkedInIcon />
                     </a>
-                    <EmailIcon />
                     <a href="https://github.com/BrunoArrm" target="_blank">
                         <GithubIcon />
                     </a>
+                    <EmailIcon />
                 </div>
             </div>
             <div className="skills">
