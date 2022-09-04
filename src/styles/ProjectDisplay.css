@@ -1,6 +1,13 @@
+@keyframes pulsar {
+  0% {transform: scale(1.09)}
+  25% {transform: scale(1)}
+  50% {transform: scale(1.05)}
+  100% {transform: scale(1)}
+}
+
 .project {
   width: 100%;
-  height: calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,8 +20,20 @@
   font-size: 35px;
 }
 .project img {
-  width: 700px;
+  width: 90%;
+  height: 90%;
+  max-width: auto;
+  max-height: auto;
   border-radius: 10px;
+}
+
+.descricao {
+  text-align: justify;
+  padding: 0 10% 0 10%;
+}
+
+.resumo {
+  text-indent: 10ch;
 }
 
 .project p {
@@ -25,4 +44,16 @@
 .project svg {
   font-size: 60px;
   color: #3e497a;
+  transition: transform 1s;
+  /* animation: pulsar .5s infinite; */
+  animation-name: pulsar;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+.project svg:hover {
+  transform: scale(1.5);
+  color: #e9d35b;
+  animation: none;
 }

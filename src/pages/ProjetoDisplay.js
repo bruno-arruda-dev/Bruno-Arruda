@@ -13,8 +13,14 @@ function ProjetoDisplay() {
     <div className='project'>
         <h1>{project.nome}</h1>
         <img src={project.imagem} />
-        <p><b>Skills:</b> {project.skills}</p>
-        <GitHubIcon />
+        <div className='descricao'>
+          <p><b>Skills:</b> {project.skills}</p>
+          <p><b>Descrição:</b> {project.descricao1}</p>
+          <p className='resumo'>{project.descricao2}</p>
+        </div>
+        <a href={project.link} target="_blank">
+          <GitHubIcon />
+        </a>
     </div>
   )
 }
