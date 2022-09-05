@@ -22,7 +22,7 @@
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   background-color: #21325e;
@@ -43,14 +43,15 @@
 
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 80px;
+  font-size: 5rem;
   color: #e9d35b;
   height: 50px;
+  /* margin-bottom: 10px; */
 }
 
 .about .prompt {
   width: 40%;
-  font-size: 30px;
+  font-size: 1.5rem;
 }
 .prompt svg {
   font-size: 60px;
