@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Bruno-Arruda/Home/static/css/main.f2b3c6e3.css",
-    "main.js": "/Bruno-Arruda/Home/static/js/main.53375edb.js",
-    "static/js/787.b0830a0b.chunk.js": "/Bruno-Arruda/Home/static/js/787.b0830a0b.chunk.js",
-    "static/media/BeeCrowd.jpg": "/Bruno-Arruda/Home/static/media/BeeCrowd.c15630abe890a8a75a3f.jpg",
-    "static/media/HackADev.jpg": "/Bruno-Arruda/Home/static/media/HackADev.cf404f3f715037c6b378.jpg",
-    "static/media/emConstrucao.png": "/Bruno-Arruda/Home/static/media/emConstrucao.9b1b9735a82807ea9aa5.png",
-    "static/media/avatarPortfolio.png": "/Bruno-Arruda/Home/static/media/avatarPortfolio.9d75f25800d0e2744bc2.png",
-    "static/media/copiaTinder.jpg": "/Bruno-Arruda/Home/static/media/copiaTinder.db77c28d64c0eae5a161.jpg",
-    "index.html": "/Bruno-Arruda/Home/index.html",
-    "main.f2b3c6e3.css.map": "/Bruno-Arruda/Home/static/css/main.f2b3c6e3.css.map",
-    "main.53375edb.js.map": "/Bruno-Arruda/Home/static/js/main.53375edb.js.map",
-    "787.b0830a0b.chunk.js.map": "/Bruno-Arruda/Home/static/js/787.b0830a0b.chunk.js.map"
+    "main.css": "/Bruno-Arruda/static/css/main.f2b3c6e3.css",
+    "main.js": "/Bruno-Arruda/static/js/main.f4e51890.js",
+    "static/js/787.b0830a0b.chunk.js": "/Bruno-Arruda/static/js/787.b0830a0b.chunk.js",
+    "static/media/BeeCrowd.jpg": "/Bruno-Arruda/static/media/BeeCrowd.c15630abe890a8a75a3f.jpg",
+    "static/media/HackADev.jpg": "/Bruno-Arruda/static/media/HackADev.cf404f3f715037c6b378.jpg",
+    "static/media/emConstrucao.png": "/Bruno-Arruda/static/media/emConstrucao.9b1b9735a82807ea9aa5.png",
+    "static/media/avatarPortfolio.png": "/Bruno-Arruda/static/media/avatarPortfolio.9d75f25800d0e2744bc2.png",
+    "static/media/copiaTinder.jpg": "/Bruno-Arruda/static/media/copiaTinder.db77c28d64c0eae5a161.jpg",
+    "index.html": "/Bruno-Arruda/index.html",
+    "main.f2b3c6e3.css.map": "/Bruno-Arruda/static/css/main.f2b3c6e3.css.map",
+    "main.f4e51890.js.map": "/Bruno-Arruda/static/js/main.f4e51890.js.map",
+    "787.b0830a0b.chunk.js.map": "/Bruno-Arruda/static/js/787.b0830a0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2b3c6e3.css",
-    "static/js/main.53375edb.js"
+    "static/js/main.f4e51890.js"
   ]
 }
