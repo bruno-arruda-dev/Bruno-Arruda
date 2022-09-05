@@ -68,7 +68,7 @@ function Experiencia() {
             Integra Engenharia de Sistemas, Goiânia-GO
           </h4>
           <p>
-            Implanto sistemas ERP desenvolvidos na empresa Integra Engenharia em parceiros clientes, os treino-os nas ferramentas mais adequadas e ajudo a aprimorar seus processos internos.
+            Implanto sistemas ERP, desenvolvidos na empresa Integra Engenharia, em parceiros clientes, os treino nas ferramentas mais adequadas e ajudo a aprimorar seus processos internos.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
