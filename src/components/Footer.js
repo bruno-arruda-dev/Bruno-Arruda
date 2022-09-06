@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='socialMedia'>
-          <a href="https://www.linkedin.com/in/bruno-arruda-977637210/" target={"_blank"}>
+          <a href="https://www.linkedin.com/in/bruno-arruda-dev/" target={"_blank"}>
             <LinkedInIcon />
           </a>
           <a href="https://github.com/BrunoArrm" target="_blank">
