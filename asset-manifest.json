@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Bruno-Arruda/static/css/main.52fca7f3.css",
-    "main.js": "/Bruno-Arruda/static/js/main.9e375b34.js",
+    "main.js": "/Bruno-Arruda/static/js/main.afff02cc.js",
     "static/js/787.b0830a0b.chunk.js": "/Bruno-Arruda/static/js/787.b0830a0b.chunk.js",
     "static/media/BeeCrowd.jpg": "/Bruno-Arruda/static/media/BeeCrowd.c15630abe890a8a75a3f.jpg",
     "static/media/HackADev.jpg": "/Bruno-Arruda/static/media/HackADev.cf404f3f715037c6b378.jpg",
@@ -10,11 +10,11 @@
     "static/media/copiaTinder.jpg": "/Bruno-Arruda/static/media/copiaTinder.db77c28d64c0eae5a161.jpg",
     "index.html": "/Bruno-Arruda/index.html",
     "main.52fca7f3.css.map": "/Bruno-Arruda/static/css/main.52fca7f3.css.map",
-    "main.9e375b34.js.map": "/Bruno-Arruda/static/js/main.9e375b34.js.map",
+    "main.afff02cc.js.map": "/Bruno-Arruda/static/js/main.afff02cc.js.map",
     "787.b0830a0b.chunk.js.map": "/Bruno-Arruda/static/js/787.b0830a0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52fca7f3.css",
-    "static/js/main.9e375b34.js"
+    "static/js/main.afff02cc.js"
   ]
 }
