@@ -2,6 +2,7 @@ import HackADev from "../assets/HackADev.jpg";
 import copiaTinder from "../assets/copiaTinder.jpg";
 import BeeCrowd from "../assets/BeeCrowd.jpg";
 import emConstrucao from '../assets/emConstrucao.png';
+import MeuPortfolio from '../assets/MeuPortfolio.jpg';
 
 export const ListaProjetos = [
     {
@@ -29,7 +30,15 @@ export const ListaProjetos = [
         link: "https://github.com/BrunoArrm/BeeCrowd",
     },
     {
-        nome: "Continuo estudando e logo terão mais projetos!",
+        nome: "Este portfólio",
+        imagem: MeuPortfolio,
+        skills: "React, HTML, CSS, JavaScript",
+        descricao1: "Este portfólio é, até o momento, meu maior desafio.",
+        descricao2: "Desenvolvendo-o pude exercitar tudo o que aprendi durante este tempo de estudos. Sei que ainda há muito para melhorar - novas tecnologias podem ser implementadas -, aprender e ajustar. Portanto, se você tem alguma dica não deixe de clicar em algum botão de contato, por favor! Qualquer experiência é bem vinda! Muito obrigado!",
+        link: "https://github.com/BrunoArrm/Bruno-Arruda",
+    },
+    {
+        nome: "Continuarei estudando e logo adicionarei mais projetos!",
         imagem: emConstrucao,
         skills: ":)",
     },
