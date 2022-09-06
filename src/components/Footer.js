@@ -14,7 +14,9 @@ function Footer() {
           <a href="https://github.com/BrunoArrm" target="_blank">
               <GithubIcon />
           </a>
-          <EmailIcon />
+          <a href="/Bruno-Arruda/Contato">
+              <EmailIcon />
+          </a>
         </div>
         <div className='agradecimentos'>
           <p>&copy; 2022 Portfólio de Bruno Arruda</p>

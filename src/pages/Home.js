@@ -21,7 +21,9 @@ export default function Home() {
                     <a href="https://github.com/BrunoArrm" target="_blank">
                         <GithubIcon />
                     </a>
+                    <a href="/Bruno-Arruda/Contato">
                     <EmailIcon />
+                    </a>
                 </div>
             </div>
             <div className="skills">
