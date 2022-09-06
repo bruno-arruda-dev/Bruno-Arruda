@@ -12,6 +12,7 @@ form {
     align-items: flex-start;
     flex-direction: column;
     width: 30%;
+    min-width: 300px;
     font-size: 16px;
 }
 
