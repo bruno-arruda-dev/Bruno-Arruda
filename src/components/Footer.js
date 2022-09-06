@@ -1,7 +1,8 @@
 import React from 'react'
-import LinkedInIcon     from "@material-ui/icons/LinkedIn";
-import GithubIcon       from "@material-ui/icons/GitHub";
-import EmailIcon        from "@material-ui/icons/Email";
+import { Link, useLocation }  from 'react-router-dom';
+import LinkedInIcon           from "@material-ui/icons/LinkedIn";
+import GithubIcon             from "@material-ui/icons/GitHub";
+import EmailIcon              from "@material-ui/icons/Email";
 import "../styles/Footer.css";
 
 function Footer() {
@@ -14,9 +15,9 @@ function Footer() {
           <a href="https://github.com/BrunoArrm" target="_blank">
               <GithubIcon />
           </a>
-          <a href="/Bruno-Arruda/Contato">
+          <Link to="/contato">
               <EmailIcon />
-          </a>
+          </Link>
         </div>
         <div className='agradecimentos'>
           <p>&copy; 2022 Portfólio de Bruno Arruda</p>

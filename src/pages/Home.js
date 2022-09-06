@@ -1,7 +1,8 @@
 import React from "react";
-import LinkedInIcon     from "@material-ui/icons/LinkedIn";
-import GithubIcon       from "@material-ui/icons/GitHub";
-import EmailIcon        from "@material-ui/icons/Email";
+import { Link, useLocation }    from 'react-router-dom';
+import LinkedInIcon             from "@material-ui/icons/LinkedIn";
+import GithubIcon               from "@material-ui/icons/GitHub";
+import EmailIcon                from "@material-ui/icons/Email";
 import "../styles/Home.css";
 import avatarPortfolio from "../components/assets/avatarPortfolio.png";
 
@@ -21,9 +22,9 @@ export default function Home() {
                     <a href="https://github.com/BrunoArrm" target="_blank">
                         <GithubIcon />
                     </a>
-                    <a href="/Bruno-Arruda/Contato">
-                    <EmailIcon />
-                    </a>
+                    <Link to="/contato">
+                        <EmailIcon />
+                    </Link>
                 </div>
             </div>
             <div className="skills">
