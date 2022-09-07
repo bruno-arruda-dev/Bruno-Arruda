@@ -37,9 +37,4 @@ export const ListaProjetos = [
         descricao2: "Desenvolvendo-o pude exercitar tudo o que aprendi durante este tempo de estudos. Sei que ainda há muito para melhorar - novas tecnologias podem ser implementadas -, aprender e ajustar. Portanto, se você tem alguma dica não deixe de clicar em algum botão de contato, por favor! Qualquer experiência é bem vinda! Muito obrigado!",
         link: "https://github.com/BrunoArrm/Bruno-Arruda",
     },
-    {
-        nome: "Continuarei estudando e logo adicionarei mais projetos!",
-        imagem: emConstrucao,
-        skills: ":)",
-    },
 ]

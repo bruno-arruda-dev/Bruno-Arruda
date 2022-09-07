@@ -5,11 +5,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: var(--azul-escuro1);
 }
+
 .projects .projectTitle {
   text-align: center;
-  color: #3e497a;
-  font-size: 60px;
+  color: var(--azul-escuro1);
   font-weight: bolder;
 }
 
@@ -35,9 +36,9 @@
 }
 
 .projectItem:hover {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 15px var(--laranja);
   cursor: pointer;
-  transform: translateY(-20px);
+  transform: scale(1.1);
 }
 
 .projectItem .bgImage {
@@ -51,7 +52,7 @@
 }
 
 .projectItem h1 {
-  font-size: 25px;
+  font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 1300px) {

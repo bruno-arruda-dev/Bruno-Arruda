@@ -14,7 +14,7 @@ export default function Home() {
                 <div className="avatarConteiner">
                     <img id="avatar" src={avatarPortfolio}></img>
                 </div>
-                <h2>Olá, meu nome é Bruno Arruda</h2>
+                <h1>Olá, meu nome é Bruno Arruda</h1>
                 <div className="prompt">
                     <p>Estudar desenvolvimento nos ajuda a criar coisas que podem impactar pessoas.</p>
                 </div>

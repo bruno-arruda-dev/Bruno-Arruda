@@ -12,7 +12,7 @@
   align-items: center;
   flex-direction: column;
   padding-top: 10px;
-  margin-top: 200px;
+  /* margin-top: 200px; */
   background: var(--gradient-background1);
   background-size: 400%;
   animation: backgroundMove 15s ease infinite;
@@ -21,15 +21,15 @@
 .socialMedia svg {
   color: white;
   margin: 20px;
-  font-size: 70px;
+  font-size: var(--tamanho-texto-3);
   cursor: pointer;
   transition-property: transform;
   transition-duration: 0.5s;
 }
 
 .socialMedia svg:hover {
-  color: #e9d35b;
-  transform: translateY(-10px);
+  color: var(--laranja);
+  transform: scale(1.1);
 }
 
 .agradecimentos {

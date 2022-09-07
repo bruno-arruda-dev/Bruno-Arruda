@@ -2,6 +2,7 @@ import React from "react";
 import ItemProjeto from "../components/ItemProjeto";
 // importar imagens dos projetos
 import "../styles/Projects.css";
+import "../styles/Global.css"
 import { ListaProjetos } from '../components/helpers/ListaProjetos';
 
 

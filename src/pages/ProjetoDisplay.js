@@ -2,7 +2,9 @@ import React from 'react'
 import { useParams } from "react-router-dom";
 import { ListaProjetos } from '../components/helpers/ListaProjetos';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import Code from '@material-ui/icons/Code';
 import '../styles/ProjectDisplay.css';
+import '../styles/Global.css';
 
 function ProjetoDisplay() {
 
@@ -19,7 +21,7 @@ function ProjetoDisplay() {
           <p className='resumo'>{project.descricao2}</p>
         </div>
         <a href={project.link} target="_blank">
-          <GitHubIcon />
+          <Code />
         </a>
     </div>
   )

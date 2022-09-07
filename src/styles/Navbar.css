@@ -10,6 +10,7 @@
     background: var(--gradient-background1);
     background-size: 400%;
     animation: backgroundMove 15s ease infinite;
+    display: flex;
   }
   
   .links {
