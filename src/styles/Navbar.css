@@ -1,7 +1,15 @@
+@keyframes backgroundMove {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100%{background-position: 0% 50%;}
+}
+
 .navbar {
     width: 100%;
     height: 100px;
-    background: #21325e;
+    background: var(--gradient-background1);
+    background-size: 400%;
+    animation: backgroundMove 15s ease infinite;
   }
   
   .links {
@@ -23,8 +31,8 @@
   }
 
   .navbar a:hover {
-    color: #e9d35b;
-    transform: translateY(-10px);
+    color: var(--laranja);
+    transform: scale(1.1);
   }
   
   .toggleButton {

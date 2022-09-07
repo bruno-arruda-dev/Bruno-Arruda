@@ -1,0 +1,18 @@
+:root {
+    --gradient-background1: linear-gradient(
+                                            45deg, 
+                                            rgba(33,50,94,1) 0%, 
+                                            #a200ff 50%, 
+                                            rgba(33,50,94,1) 100%
+                                            );
+    --azul-escuro1: #21325e;
+    --azul-escuro2: #3e497a;
+    --branco: white;
+    --roxo: #a200ff;
+    --laranja: #ff6f00;
+
+    /* TAMANHOS */
+    --tamanho-texto-1: 1rem;
+    --tamanho-texto-2: 2rem;
+    --tamanho-texto-3: 3rem;
+  }

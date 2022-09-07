@@ -3,8 +3,9 @@ import { Link, useLocation }    from 'react-router-dom';
 import LinkedInIcon             from "@material-ui/icons/LinkedIn";
 import GithubIcon               from "@material-ui/icons/GitHub";
 import EmailIcon                from "@material-ui/icons/Email";
+import avatarPortfolio          from "../components/assets/avatarPortfolio.png";
 import "../styles/Home.css";
-import avatarPortfolio from "../components/assets/avatarPortfolio.png";
+import "../styles/Global.css";
 
 export default function Home() {
     return (
@@ -16,6 +17,8 @@ export default function Home() {
                 <h2>Olá, meu nome é Bruno Arruda</h2>
                 <div className="prompt">
                     <p>Estudar desenvolvimento nos ajuda a criar coisas que podem impactar pessoas.</p>
+                </div>
+                <div className="icones">
                     <a href="https://www.linkedin.com/in/bruno-arruda-dev/" target={"_blank"}>
                         <LinkedInIcon />
                     </a>
