@@ -40,8 +40,8 @@
 .avatarConteiner {
   height: 30%;
   position: relative;
-  animation:  avatarSurgir 1s ease-in-out 0s, 
-              avatarMovimento 5s ease-in-out 1.5s infinite;
+  /* animation:  avatarSurgir 1s ease-in-out 0s, 
+              avatarMovimento 5s ease-in-out 1.5s infinite; */
 }
 
 .avatarConteiner img {
