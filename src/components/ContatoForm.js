@@ -1,45 +1,23 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import React from 'react'
+import '../styles/Global.css';
 import '../styles/ContatoForm.css';
 
-const ContatoForm = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_7md0kwf",
-        "template_25rxxds",
-        form.current,
-        "0_JlZr9Qf1JtZ0vbx"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("message sent");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
-
+function ContatoForm() {
   return (
-    <div className="contactForm">
-      <h1>Contato</h1>
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Nome</label>
-        <input type="text" name="user_name" />
-        <label>E-mail</label>
-        <input type="email" name="user_email" />
-        <label>Mensagem</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
+    <div className='contactForm'>
+      <h1 className='titulo'>Fale comigo</h1>
+      <form action="https://formsubmit.co/bruno.arrm@gmail.com" method='POST' className='formulario'>
+        <input type="text" name="Nome" placeholder="Seu nome" className="input" required></input>
+        <input type="email" name="Email" placeholder="Seu email" className="input" required></input>
+        <select name="tipo" className="input">
+          <option>Eu sou um Recrutador</option>
+          <option>Eu sou um Estudante</option>
+        </select>
+        <textarea name="Mensagem" placeholder='Deixe sua mensagem aqui'className="input" id='mensagem' required></textarea>
+        <button type='submit'className="input" id="botao">Enviar</button>
       </form>
     </div>
-  );
-};
+  )
+}
 
-export default ContatoForm;
+export default ContatoForm

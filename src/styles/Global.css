@@ -16,3 +16,9 @@
     --tamanho-texto-2: 2rem;
     --tamanho-texto-3: 3rem;
   }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
