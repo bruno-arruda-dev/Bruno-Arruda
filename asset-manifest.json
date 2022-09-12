@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Bruno-Arruda/static/css/main.f8a84504.css",
-    "main.js": "/Bruno-Arruda/static/js/main.1b6bf3a4.js",
+    "main.js": "/Bruno-Arruda/static/js/main.555a9545.js",
     "static/js/787.b0830a0b.chunk.js": "/Bruno-Arruda/static/js/787.b0830a0b.chunk.js",
     "static/media/avatarPortfolio.png": "/Bruno-Arruda/static/media/avatarPortfolio.a3025b3e6d9521e737ad.png",
     "static/media/BeeCrowd.jpg": "/Bruno-Arruda/static/media/BeeCrowd.c15630abe890a8a75a3f.jpg",
@@ -13,11 +13,11 @@
     "static/media/node.png": "/Bruno-Arruda/static/media/node.e21c08a31ddc716afd15.png",
     "index.html": "/Bruno-Arruda/index.html",
     "main.f8a84504.css.map": "/Bruno-Arruda/static/css/main.f8a84504.css.map",
-    "main.1b6bf3a4.js.map": "/Bruno-Arruda/static/js/main.1b6bf3a4.js.map",
+    "main.555a9545.js.map": "/Bruno-Arruda/static/js/main.555a9545.js.map",
     "787.b0830a0b.chunk.js.map": "/Bruno-Arruda/static/js/787.b0830a0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8a84504.css",
-    "static/js/main.1b6bf3a4.js"
+    "static/js/main.555a9545.js"
   ]
 }
