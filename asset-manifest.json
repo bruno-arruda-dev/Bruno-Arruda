@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Bruno-Arruda/static/css/main.f8a84504.css",
-    "main.js": "/Bruno-Arruda/static/js/main.555a9545.js",
+    "main.js": "/Bruno-Arruda/static/js/main.de2d6c60.js",
     "static/js/787.b0830a0b.chunk.js": "/Bruno-Arruda/static/js/787.b0830a0b.chunk.js",
     "static/media/avatarPortfolio.png": "/Bruno-Arruda/static/media/avatarPortfolio.a3025b3e6d9521e737ad.png",
     "static/media/BeeCrowd.jpg": "/Bruno-Arruda/static/media/BeeCrowd.c15630abe890a8a75a3f.jpg",
     "static/media/HackADev.jpg": "/Bruno-Arruda/static/media/HackADev.cf404f3f715037c6b378.jpg",
     "static/media/emConstrucao.png": "/Bruno-Arruda/static/media/emConstrucao.9b1b9735a82807ea9aa5.png",
-    "static/media/MeuPortfolio.jpg": "/Bruno-Arruda/static/media/MeuPortfolio.6b048c0f8b4d524201ed.jpg",
     "static/media/copiaTinder.jpg": "/Bruno-Arruda/static/media/copiaTinder.db77c28d64c0eae5a161.jpg",
+    "static/media/MeuPortfolio.jpg": "/Bruno-Arruda/static/media/MeuPortfolio.42558ffa93846a57f90f.jpg",
     "static/media/react.png": "/Bruno-Arruda/static/media/react.ebeaa7c9c2af5fac0264.png",
     "static/media/node.png": "/Bruno-Arruda/static/media/node.e21c08a31ddc716afd15.png",
     "index.html": "/Bruno-Arruda/index.html",
     "main.f8a84504.css.map": "/Bruno-Arruda/static/css/main.f8a84504.css.map",
-    "main.555a9545.js.map": "/Bruno-Arruda/static/js/main.555a9545.js.map",
+    "main.de2d6c60.js.map": "/Bruno-Arruda/static/js/main.de2d6c60.js.map",
     "787.b0830a0b.chunk.js.map": "/Bruno-Arruda/static/js/787.b0830a0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8a84504.css",
-    "static/js/main.555a9545.js"
+    "static/js/main.de2d6c60.js"
   ]
 }
