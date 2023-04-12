@@ -12,9 +12,24 @@ function Experiencia() {
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
 
+      <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2023 - Cursando"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Carreira Full-Stack Web.
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Alura.
+          </h4>
+          <p>Orgulhosamente matriculado em uma das melhores escolas de programação online do Brasil, na qual estudo todos os dias com muita disciplina e aproveito sua extensa biblioteca para tirar dúvidas sobre projetos nos quais eventualmente me envolvo.</p>
+        </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2022 - Atual"
+          date="2022 - Completo"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
@@ -29,7 +44,7 @@ function Experiencia() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2021 - Atual"
+          date="2021 - Cursando"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
@@ -46,7 +61,7 @@ function Experiencia() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2021 - Atual"
+          date="2021 - Cursando"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
@@ -62,7 +77,7 @@ function Experiencia() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2020 - Atual"
+          date="2020 - Cursando"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >

@@ -1,5 +1,8 @@
 import pokedex from '../assets/Pokedex.jpg';
 import gpti from '../assets/GPTI.jpg';
+import branding from '../assets/branding.jpg';
+import sorveteria from '../assets/sorveteria.jpg';
+import barbearia from '../assets/barbearia.jpg';
 import HackADev from "../assets/HackADev.jpg";
 import copiaTinder from "../assets/copiaTinder.jpg";
 import BeeCrowd from "../assets/BeeCrowd.jpg";
@@ -21,6 +24,30 @@ export const ListaProjetos = [
         descricao1: "Na empresa em que trabalho atualmente, estou colaborando com o desenvolvimento de um novo sistema ERP que funcionará via WEB.",
         descricao2: "Neste projeto estou colaborando ativamente com a equipe, envolvido nos desenvolvimentos Frontend (principalmente), backend e mobile. Este é um esboço das telas iniciais do sistema que desenvolvi para argumentar com a equipe acerta das vantagens de utilização das tecnologias React + Typescript.",
         link: "https://brunoarrm.github.io/GPTI-ERP-Project/",
+    },
+    {
+        nome: "Agência de Branding",
+        imagem: branding,
+        skills: "React, React Hooks, JavaScript, HTML, CSS",
+        descricao1: "Site de uma agência de branding.",
+        descricao2: "Aqui eu me deparei com um projeto proposto na escola DevMedia, o qual tive imensa satisfação em desenvolver pois pude praticar o hook do useState do React, além conceitos mais modernos de layout.",
+        link: "https://github.com/BrunoArrm/agencia-branding",
+    },
+    {
+        nome: "Sorveteria",
+        imagem: sorveteria,
+        skills: "React, React Hooks, JavaScript, HTML, CSS",
+        descricao1: "Site de uma sorveteria.",
+        descricao2: "O desenvolvimento deste projeto se deu diante de uma necessidade que tive em praticar react-router-dom. O mesmo foi um exercício proposto na plataforma DevMedia, o qual tive grande satisfação em desenvolver.",
+        link: "https://github.com/BrunoArrm/sorveteria",
+    },
+    {
+        nome: "Barbearia",
+        imagem: barbearia,
+        skills: "React, React Hooks, JavaScript, HTML, CSS",
+        descricao1: "Single page de uma barbearia.",
+        descricao2: "Um exercício na escola DevMedia, o qual utilizei para praticar o hook useState do React.",
+        link: "https://github.com/BrunoArrm/barbearia",
     },
     {
         nome: "HackADev - Venda de roupas de academia",
