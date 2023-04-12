@@ -1,4 +1,5 @@
 import pokedex from '../assets/Pokedex.jpg';
+import gpti from '../assets/GPTI.jpg';
 import HackADev from "../assets/HackADev.jpg";
 import copiaTinder from "../assets/copiaTinder.jpg";
 import BeeCrowd from "../assets/BeeCrowd.jpg";
@@ -8,10 +9,18 @@ export const ListaProjetos = [
     {
         nome: "Pokedex",
         imagem: pokedex,
-        skills: "React, React Hooks, JavaScript,API REST, HTML, CSS",
+        skills: "React, React Hooks, JavaScript, API REST, HTML, CSS",
         descricao1: "Projeto desenvolvido para testar minhas habilidades com React Hooks e para praticar consumo de APIs REST.",
         descricao2: "Ao longo do projet Pokedex diversos desafios foram enfrentados, vários problemas foram resolvidos, muita lógica foi aplicada e várias skills foram praticadas. Ainda há muito trabalho para se fazer nela...",
         link: "https://brunoarrm.github.io/PokedexV2/",
+    },
+    {
+        nome: "GPTI ERP",
+        imagem: gpti,
+        skills: "React, React Hooks, TypeScript, API REST, HTML, CSS",
+        descricao1: "Na empresa em que trabalho atualmente, estou colaborando com o desenvolvimento de um novo sistema ERP que funcionará via WEB.",
+        descricao2: "Neste projeto estou colaborando ativamente com a equipe, envolvido nos desenvolvimentos Frontend (principalmente), backend e mobile. Este é um esboço das telas iniciais do sistema que desenvolvi para argumentar com a equipe acerta das vantagens de utilização das tecnologias React + Typescript.",
+        link: "https://brunoarrm.github.io/GPTI-ERP-Project/",
     },
     {
         nome: "HackADev - Venda de roupas de academia",
