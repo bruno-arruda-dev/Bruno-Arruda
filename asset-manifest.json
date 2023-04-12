@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/Bruno-Arruda/static/css/main.f8a84504.css",
-    "main.js": "/Bruno-Arruda/static/js/main.de2d6c60.js",
+    "main.css": "/Bruno-Arruda/static/css/main.f424b599.css",
+    "main.js": "/Bruno-Arruda/static/js/main.ae124831.js",
     "static/js/787.b0830a0b.chunk.js": "/Bruno-Arruda/static/js/787.b0830a0b.chunk.js",
     "static/media/avatarPortfolio.png": "/Bruno-Arruda/static/media/avatarPortfolio.a3025b3e6d9521e737ad.png",
+    "static/media/barbearia.jpg": "/Bruno-Arruda/static/media/barbearia.bc3c2cbda5257d183f1c.jpg",
     "static/media/BeeCrowd.jpg": "/Bruno-Arruda/static/media/BeeCrowd.c15630abe890a8a75a3f.jpg",
     "static/media/HackADev.jpg": "/Bruno-Arruda/static/media/HackADev.cf404f3f715037c6b378.jpg",
-    "static/media/emConstrucao.png": "/Bruno-Arruda/static/media/emConstrucao.9b1b9735a82807ea9aa5.png",
+    "static/media/Pokedex.jpg": "/Bruno-Arruda/static/media/Pokedex.972a26128a658c79664b.jpg",
+    "static/media/branding.jpg": "/Bruno-Arruda/static/media/branding.9e14fe85e4dc6c2a2d8f.jpg",
     "static/media/copiaTinder.jpg": "/Bruno-Arruda/static/media/copiaTinder.db77c28d64c0eae5a161.jpg",
     "static/media/MeuPortfolio.jpg": "/Bruno-Arruda/static/media/MeuPortfolio.42558ffa93846a57f90f.jpg",
+    "static/media/sorveteria.jpg": "/Bruno-Arruda/static/media/sorveteria.383ce48b532947d32728.jpg",
+    "static/media/GPTI.jpg": "/Bruno-Arruda/static/media/GPTI.e9a867c00ed3aee31d1b.jpg",
     "static/media/react.png": "/Bruno-Arruda/static/media/react.ebeaa7c9c2af5fac0264.png",
     "static/media/node.png": "/Bruno-Arruda/static/media/node.e21c08a31ddc716afd15.png",
     "index.html": "/Bruno-Arruda/index.html",
-    "main.f8a84504.css.map": "/Bruno-Arruda/static/css/main.f8a84504.css.map",
-    "main.de2d6c60.js.map": "/Bruno-Arruda/static/js/main.de2d6c60.js.map",
+    "main.f424b599.css.map": "/Bruno-Arruda/static/css/main.f424b599.css.map",
+    "main.ae124831.js.map": "/Bruno-Arruda/static/js/main.ae124831.js.map",
     "787.b0830a0b.chunk.js.map": "/Bruno-Arruda/static/js/787.b0830a0b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8a84504.css",
-    "static/js/main.de2d6c60.js"
+    "static/css/main.f424b599.css",
+    "static/js/main.ae124831.js"
   ]
 }
