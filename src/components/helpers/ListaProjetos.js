@@ -1,10 +1,18 @@
+import pokedex from '../assets/Pokedex.jpg';
 import HackADev from "../assets/HackADev.jpg";
 import copiaTinder from "../assets/copiaTinder.jpg";
 import BeeCrowd from "../assets/BeeCrowd.jpg";
-import emConstrucao from '../assets/emConstrucao.png';
 import MeuPortfolio from '../assets/MeuPortfolio.jpg';
 
 export const ListaProjetos = [
+    {
+        nome: "Pokedex",
+        imagem: pokedex,
+        skills: "React, React Hooks, JavaScript,API REST, HTML, CSS",
+        descricao1: "Projeto desenvolvido para testar minhas habilidades com React Hooks e para praticar consumo de APIs REST.",
+        descricao2: "Ao longo do projet Pokedex diversos desafios foram enfrentados, vários problemas foram resolvidos, muita lógica foi aplicada e várias skills foram praticadas. Ainda há muito trabalho para se fazer nela...",
+        link: "https://brunoarrm.github.io/PokedexV2/",
+    },
     {
         nome: "HackADev - Venda de roupas de academia",
         imagem: HackADev,
